@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * print_sign - Checks if a character is lowercase.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if character is lowercase, 0 otherwise.
+ */
+int print_sign(int n)
+{
+if (n >= 1)
+{
+return (1);
+}
+if (n <= -1)
+{
+return (-1);
+}
+else
+return (0);
+}
