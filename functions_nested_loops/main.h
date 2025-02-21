@@ -1,8 +1,9 @@
 int _putchar();
 int print_alphabet();
 int print_alphabet_x10();
-int _islower(int c);
-int _isalpha(int c);
-int print_sign(int n);
-int _abs(int);
-int print_last_digit(int);
+int _islower();
+int _isalpha();
+int print_sign();
+int _abs();
+int print_last_digit();
+void jack_bauer();
