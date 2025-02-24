@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet_x10 - Prints all single dig
+ * more_numbers - Prints all single dig
  *
  * Return: Always 0.
  */
