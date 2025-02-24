@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _islower - Checks if a character is lowercase.
+ * mul - Checks if a character is lowercase.
  *@a: The character to be checked.
  *@b: ch
  *
@@ -10,5 +10,5 @@
  */
 int mul(int a, int b)
 {
-return(a * b);
+return (a * b);
 }
