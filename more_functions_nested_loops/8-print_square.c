@@ -9,11 +9,15 @@ void print_square(int size)
 {
 int c;
 int c2;
-if (size >= 1)
+if (size <= 0)
 {
-for (c = 0; c <= size; c++)
+_putchar('\n');
+}
+else
 {
-for (c2 = 0; c2 <= size; c2++)
+for (c = 1; c <= size; c++)
+{
+for (c2 = 1; c2 <= size; c2++)
 {
 _putchar('#');
 }
