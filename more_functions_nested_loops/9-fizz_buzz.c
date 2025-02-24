@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * FizzBuzz - Prints all single dig
- * @i: ez
+ * main - Prints all single dig
  *
  * Return: Always 0.
  */
