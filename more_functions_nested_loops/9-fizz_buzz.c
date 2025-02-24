@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * FizzBuzz - Prints all single dig
- *@i: ez
+ * @i: ez
  *
  * Return: Always 0.
  */
@@ -30,7 +30,7 @@ if (i < 100)
 {
 putchar(' ');
 }
-putchar('\n');
 }
+putchar('\n');
 return (0);
 }
