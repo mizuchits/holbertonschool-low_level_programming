@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * FizzBuzz - Prints all single dig
  *@i: ez
  *
  * Return: Always 0.
  */
-void FizzBuzz(void)
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
@@ -28,5 +27,6 @@ else
 printf("%d ", i);
 }
 }
-_putchar ('\n');
+ putchar('\n');
+ return (0);
 }
