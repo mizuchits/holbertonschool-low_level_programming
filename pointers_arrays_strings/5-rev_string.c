@@ -21,7 +21,7 @@ while (frontIndex < backIndex)
 {
 char temp = s[frontIndex];
 s[frontIndex] = s[backIndex];
-s[backIndex] = temp; 
+s[backIndex] = temp;
 frontIndex++;
 backIndex--;
 }
