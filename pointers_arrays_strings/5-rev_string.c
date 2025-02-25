@@ -17,7 +17,7 @@ while (*(s + count) != '\0')
 count++;
 }
 backIndex = count - 1;
-while(frontIndex < backIndex)
+while (frontIndex < backIndex)
 {
 char temp = s[frontIndex];
 s[frontIndex] = s[backIndex];
