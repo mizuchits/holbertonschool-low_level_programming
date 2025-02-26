@@ -8,25 +8,24 @@
  */
 int _atoi(char *s)
 {
-  int res = 0;
-  int i = 0;
-  int count = 0;
-
-  while (*(s + count) != '\0')
-    {
-      count++;
-    }
-  while (i < count)
-    {
-      if (s[i] >= '0' && s[i] <= '9')
-	{
-      	  res = res*10 + s[i] - '0';
-	  if (s[i] <= '0' && s[i] >= '9')
-            {
-              continue;
-            }
-	}
-      i++;
-    }
-  return res;
+short boolean;
+int i, min, res;
+i = min = res = boolean = 0;
+min = -1;
+while (s[i] != '\0')
+{
+if (s[i] == '-')
+min *= -1;
+if (s[i] >= '0' && s[i] <= '9')
+{
+res *= 10;
+res -= (s[i] - '0');
+boolean = 1;
+}
+else if (boolean == 1)
+break;
+i++;
+}
+res *= min;
+return (res);
 }
