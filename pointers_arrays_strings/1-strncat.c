@@ -28,7 +28,7 @@ int i, j;
 j = _strlen(dest);
 for (i = 0; src[i] != '\0'; i++)
 {
-if(i < n)
+if (i < n)
 dest[i + j] = src[i];
 }
 dest[i + j] = '\0';
