@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * string_toupper - print
+ * *string_toupper - print
  *
- * @*: array to be printed
+ * @str: array to be printed
  *
  */
 char *string_toupper(char *str)
