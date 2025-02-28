@@ -5,7 +5,8 @@
  * string_toupper - print char (str)
  *
  * @str: array to be printed
- *return : ez
+ *
+ * Return: Always 0.
  */
 char *string_toupper(char *str)
 {
