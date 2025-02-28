@@ -15,7 +15,7 @@ long backIndex;
 backIndex = n;
 while (frontIndex < backIndex)
 {
-char temp = a[frontIndex];
+int temp = a[frontIndex];
 a[frontIndex] = a[backIndex];
 a[backIndex] = temp;
 frontIndex++;
