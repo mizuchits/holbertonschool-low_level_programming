@@ -3,7 +3,7 @@
 
 /**
  * reverse_array - check the code.
- *
+ * @n: ez
  *@a: charctere
  * Return: Always 0.
  */
