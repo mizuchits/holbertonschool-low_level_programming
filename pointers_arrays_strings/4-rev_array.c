@@ -9,8 +9,8 @@
  */
 void reverse_array(int *a, int n)
 {
-int frontIndex = 0;
-int backIndex;
+long frontIndex = 0;
+long backIndex;
 
 backIndex = n - 1;
 while (frontIndex < backIndex)
