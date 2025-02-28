@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *string_toupper - print
+ * string_toupper - print char (str)
  *
  * @str: array to be printed
- *
+ *return : ez
  */
 char *string_toupper(char *str)
 {
