@@ -4,7 +4,7 @@
  * _strncpy - Copies
  * @dest: aaaahhh
  * @src: ez
- * @i: aq
+ * @n: aq
  * Return: A
  */
 char *_strncpy(char *dest, char *src, int n)
